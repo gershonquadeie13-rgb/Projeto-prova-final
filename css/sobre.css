@@ -37,8 +37,7 @@ nav a {
 	font-weight: 600;
 }
 .sobre-missao{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	
 	gap: 40px;
 	align-items: center;
 	background: white;
@@ -55,18 +54,15 @@ nav a {
 	margin-bottom: 25px;
 }
 .valores{
-	border-left: 4px solid lightgreen;
+	
 	padding-left: 20px;
 }
 .valor-item{
 	margin-bottom: 10px;
 	font-size: 0.95rem;
 }
-.missao-img img{
-	width: 100%;
-	border-radius: 10px;
-	filter: sepia(20%);
-}
+
+
 
 
 .telefone {
@@ -76,12 +72,8 @@ nav a {
 	padding: 20px;
 	justify-content: center;
 }
-.img {
-	background: #ccc;
-	padding: 40px;
-	flex: 1;
-	text-align: center;
-}
+
+
 footer {
 	background-color: #1b5e20;
 	color: white;
@@ -105,7 +97,6 @@ footer {
 	padding: 20px;
 	justify-content: center;
 }
-
 
 .gershon {
 	
