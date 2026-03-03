@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: light green;
+	color: #333;
+	justify-content: center;
+}
+header{
+	background-color: #1ba522;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+nav a {
+	color: white;
+	margin: 0 10px;
+	text-decoration: none;
+}
+.cp-conteudo{
+	background-image: url('../imagem/desss.jfif');
+	background-size: cover;
+	background-position: center;
+	color: white;
+ 	text-align: center;
+	padding: 80px 20px;
+ 
+}
+
+
+.cabeca-do-problemas h1{
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+}
+.cabeca-do-problemas p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.corpo{
+	padding: 60px 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	
+}
+.caixas-de-problemas{
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	background-color: transparent;
+}
+
+.texto-de-problemas img{
+	 float: left;                 
+    width: 400px;                
+    height: 200px;                
+    margin: 0 20px 10px 0;       
+    border-radius: 8px;
+}
+
+.img-problemas{
+	width: 50%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+.texto-de-problemas h2{
+	color: darkorange;
+	font-size: 1.8rem;
+	margin-bottom: 1.0rem;
+	font-weight: bolder;
+}
+
+.texto-de-problemas p{
+	line-height: 1.6;
+	font-size: 1.0rem;
+}
+
+.proxima-pagina{
+	background-color: lightblue;
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.proxima-pagina h2{
+	color: darkblue;
+	margin-left: 20px;
+
+}
+
+.botao-laranja{
+	display: inline-block;
+	background-color: orange;
+	color: var(white);
+	text-decoration: none;
+	padding: 12px 30px;
+	border-radius: 5px;
+	font-weight: 600;
+	transition: background-color 0.3;
+}
+.botao-laranja :hover{
+	background-color: #c05d1a;
+}
+.telefone {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	padding: 20px;
+	justify-content: center;
+}
+.img {
+	background: #ccc;
+	padding: 40px;
+	flex: 1;
+	text-align: center;
+}
+footer {
+	background-color: #1b5e20;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+	.telefone {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 10px;
+	padding: 20px;
+	justify-content: center;
+}
+
+
+.gershon {
+	
+	padding: 50px;
+	text-align: center;
+	height: 250px;
+	background-image: url('../imagem/title.jpg');
+	 color: white;
+	
+	 background-repeat: no-repeat;
+	  background-size: cover;
+}
+}
+

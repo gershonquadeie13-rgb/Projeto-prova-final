@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: light green;
+	color: #333;
+	justify-content: center;
+}
+header{
+	background-color: #1ba522;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+nav a {
+	color: white;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+.sobre-conteiner{
+	max-width: 900px;
+	margin: 60px auto;
+	padding: 0 20px;
+}
+.sobre-intro{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.sobre-intro h1{
+	color: darkgreen;
+	font-size: 2.8rem;
+	margin-bottom: 20px;
+}
+.titlo{
+	font-size: 1.3rem;
+	color: darkgreen;
+	font-weight: 600;
+}
+.sobre-missao{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	align-items: center;
+	background: white;
+	padding: 40px;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgb(0,0,0,0.05);
+}
+.missao-text h2{
+	color: orange;
+	margin-bottom: 20px;
+}
+.missao-text p{
+	line-height: 1.8;
+	margin-bottom: 25px;
+}
+.valores{
+	border-left: 4px solid lightgreen;
+	padding-left: 20px;
+}
+.valor-item{
+	margin-bottom: 10px;
+	font-size: 0.95rem;
+}
+.missao-img img{
+	width: 100%;
+	border-radius: 10px;
+	filter: sepia(20%);
+}
+
+
+.telefone {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	padding: 20px;
+	justify-content: center;
+}
+.img {
+	background: #ccc;
+	padding: 40px;
+	flex: 1;
+	text-align: center;
+}
+footer {
+	background-color: #1b5e20;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+	.telefone {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 10px;
+	padding: 20px;
+	justify-content: center;
+}
+
+
+.gershon {
+	
+	padding: 50px;
+	text-align: center;
+	height: 250px;
+	background-image: url('../imagem/title.jpg');
+	 color: white;
+	
+	 background-repeat: no-repeat;
+	  background-size: cover;
+}
+}
+
