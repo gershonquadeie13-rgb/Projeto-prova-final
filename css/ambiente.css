@@ -21,13 +21,13 @@ nav a {
 	background-size: cover;
 	background-position: center;
 	color: white;
- 	text-align: center;
+ 	text-align: justify;
 	padding: 80px 20px;
  
 }
 .ambiente{
 	padding: 60px 20px;
-	max-width: 1100px;
+	max-width: 100%;
 	margin: 0;
 
 }
@@ -45,10 +45,11 @@ nav a {
 }
 .info img{
 	 float: center;                 
-    width: 400px;                
-    height: 400px;                
+    width: 500px;                
+    height: 900px;                
     margin: 0 20px 10px 0;       
     border-radius: 8px;
+	padding-right: -600px;
 }
 .tag{
 	background-color: #1ba522;
